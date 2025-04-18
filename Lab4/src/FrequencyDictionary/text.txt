@@ -1,0 +1,4 @@
+Java is a powerful programming language. Java
+is used in web development, mobile apps, and desktop software.
+The power of Java lies in its simplicity and portability.
+Developers love Java because it's fast, reliable, and versatile. Java, Java, Java
