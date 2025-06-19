@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 
     static final int DATA_SIZE = 1_000_000;
-    static final int RANDOM_ACCESS_COUNT = 100_000;
+    static final int RANDOM_ACCESS_COUNT = 100_00;
 
     private static void fillArraysWithRandom(ArrayList<Integer> arrayList, LinkedList<Integer> linkedList) {
         Random rand = new Random();
@@ -40,7 +40,6 @@ public class Main {
 
     private static void chooseNumbers(AbstractList<Integer> collection, ArrayList<Integer> chooseArray) {
         for (Integer integer : chooseArray) {
-            int _ = collection.get(integer);
             collection.set(integer, -1);
         }
     }

@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        FrequencyDictionary frequencyDictionary = null;
+        FrequencyDictionary frequencyDictionary;
 
         try (BufferedReader br = new BufferedReader(new FileReader("src/FrequencyDictionary/text.txt"))) {
             frequencyDictionary = new FrequencyDictionary(br);

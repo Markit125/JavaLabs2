@@ -171,7 +171,7 @@ public class CandidatesGUI extends JFrame {
     }
 
     private void saveListToFile() {
-        JFileChooser fileChooser = new JFileChooser();
+        JFileChooser fileChooser = new JFileChooser("C:\\Labs\\JavaLabs2\\Lab3\\src\\Lab3");
         fileChooser.setDialogTitle("Save Candidates List");
 
         int userSelection = fileChooser.showSaveDialog(this);
